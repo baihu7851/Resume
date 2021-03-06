@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+i {
+  cursor: pointer;
+
+}
+
+
+ul {
+  list-style: none;
+}
+
+.wrap {
+  width: 1000px;
+  margin: 10px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  border: solid 2px brown;
+}
+
+.header {
+  padding: 10px;
+
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(src/mba.jpg);
+  background-size: contain;
+  border-bottom: solid 1px brown;
+}
+
+.picture {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name {
+  width: 70%;
+  display: flex;
+  -webkit-text-stroke: 1px white;
+  color: black;
+  justify-content: center;
+}
+
+.picture img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+/* content */
+
+.content {
+  display: flex;
+}
+
+/* info */
+.info {
+  width: 30%;
+  padding: 20px 40px;
+
+  background-color: #eee;
+}
+
+.info h3 {
+  border-bottom: 2px solid #000;
+}
+
+.data li {
+  font-size: 20px;
+}
+
+.data p {
+  font-size: 16px;
+  background-color: black;
+  color: black;
+  border-bottom: solid 1px gray;
+}
+
+.data p:hover {
+  background-color: #eee;
+}
+
+.links {
+  display: flex;
+}
+
+.links li {
+  margin: 2px 5px;
+}
+
+/* exp  */
+.exp {
+  width: 70%;
+  padding: 20px 40px;
+  background-color: seashell;
+}
+
+.exp ul {
+  margin: 10px 20px;
+}
+
+.exp h3 {
+  border-bottom: solid 1px blue;
+}
+
+.exp li {
+  padding: 0 5px;
+}
+
+.exp div {
+  display: flex;
+  /* align-items: center; */
+}
+
+.fas {
+  font-size: 16px;
+}
+
+.year {
+  margin-right: 5px;
+  padding: 0;
+  width: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.school {
+  width: 100%;
+  background-color: black;
+  color: black;
+}
+
+.school:hover {
+  background-color: seashell;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pie {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: linear-gradient(to right, gray 50%, yellowgreen 50%);
+  overflow: hidden;
+  position: relative;
+}
+
+.pie::before {
+  content: '';
+  width: 50px;
+  display: block;
+  margin-left: 50%;
+  height: 100%;
+  background: yellowgreen;
+  transform-origin: left;
+  transform: rotate(.2turn);
+
+}
+
+.c2:before {
+  background: gray;
+
+  transform: rotate(.5turn);
+}
+
+.c3:before {
+  background: gray;
+  transform: rotate(.05turn);
+}
+
+.c4:before {
+  background: gray;
+  transform: rotate(.05turn);
+}
+
+.c5:before {
+  background: gray;
+  transform: rotate(.10turn);
+}
+
+.pie2 p {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  background-color: #eee;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.hobbise li {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hobbise img {
+  width: 64px;
+  height: 64px;
+}
